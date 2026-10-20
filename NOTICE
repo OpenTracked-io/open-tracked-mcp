@@ -1,0 +1,5 @@
+Open Tracked MCP
+Copyright 2026 Open Tracked
+
+This product depends on google-tag-manager-mcp-core (Apache License 2.0), the Google Tag Manager tool set
+from https://github.com/stape-io/google-tag-manager-mcp-server. It is used as published, unchanged.
