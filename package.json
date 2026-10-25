@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nexeflabs-ctrl/open-tracked-mcp.git"
+    "url": "git+https://github.com/OpenTracked-io/open-tracked-mcp.git"
   },
   "homepage": "https://opentracked.io/solutions/open-tracked-mcp-server",
   "bugs": {
-    "url": "https://github.com/nexeflabs-ctrl/open-tracked-mcp/issues"
+    "url": "https://github.com/OpenTracked-io/open-tracked-mcp/issues"
   }
 }
