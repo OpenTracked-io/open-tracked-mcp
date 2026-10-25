@@ -5,9 +5,19 @@
   "license": "Apache-2.0",
   "type": "module",
   "main": "./dist/index.js",
-  "bin": { "open-tracked-mcp": "./dist/index.js" },
-  "files": ["dist", "src", "LICENSE", "NOTICE", "README.md"],
-  "engines": { "node": ">=20" },
+  "bin": {
+    "open-tracked-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json && chmod 755 dist/index.js",
     "start": "node dist/index.js",
@@ -23,5 +33,13 @@
     "@types/node": "^24.0.0",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexeflabs-ctrl/open-tracked-mcp.git"
+  },
+  "homepage": "https://opentracked.io/solutions/open-tracked-mcp-server",
+  "bugs": {
+    "url": "https://github.com/nexeflabs-ctrl/open-tracked-mcp/issues"
   }
 }

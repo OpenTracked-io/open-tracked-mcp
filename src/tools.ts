@@ -102,7 +102,7 @@ export function platformTools(ot: OpenTrackedClient) {
     server.registerTool(
       "open_tracked_power_ups",
       {
-        description: "Power-Ups of a container: 'list' which are on, or 'toggle' one (key such as geo_headers, user_agent_info, ad_blocker_info, user_id, custom_loader, cookie_keeper).",
+        description: "Power-Ups of a container: 'list' which are on, or 'toggle' one (key such as geo_headers (visitor location), user_agent_info (device info), user_id, custom_loader, cookie_keeper).",
         inputSchema: z.object({ action: z.enum(["list", "toggle"]), containerId: ContainerId, key: z.string().regex(/^[a-z_]+$/).optional() }),
       },
       ({ action, containerId, key }) =>
